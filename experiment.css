@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#main {
+    height: 3600px;
+    width: 100%;
+    min-width: 1100px;
+    text-align: center;
+    overflow: hidden;
+}
+#first {
+    height: 420px;
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.top-nav {
+    float: left;
+    margin-left: 300px;
+    font-family: "黑体";
+    width: 90px;
+}
+.top-nav span {
+    display: block;
+}
+.cli {
+    padding-top: 20px;
+    font-size: 20px;
+}
+#word {
+    font-size: 25px;
+}
+#first img {
+    width: 100%;
+    padding-top: 20px;
+}
+#second {
+    height: 900px;
+    min-width: 1100px;
+    text-align: center;
+}
+.pic {
+    padding-top: 150px;
+    padding-right: 440px;
+}
+#npro {
+    font-size: 30px;
+    color: #000000;
+    font-family: "黑体"
+}
+#eng {
+    color: #dddddd;
+    font-size: 15px;
+}
+.pic hr {
+    margin-top: 10px;
+    width: 400px;
+    border-bottom: 2px solid #f80303;
+    position: absolute;
+    left: 300px;
+}
+#six {
+    width: 760px;
+    margin-left: 290px;
+    margin-top: 60px;
+}
+#six ul {
+    width: 1000px;
+    overflow: hidden;
+}
+#six li {
+    float: left;
+    width: 200px;
+    margin-right: 95px;
+    margin-top: 60px;
+} 
+.six-img {
+    display: inline;
+}
+.six-img  img {
+    height: 115px;
+    width: 200px;
+    position: relative;
+}
+.span {
+    border: 1px solid #939393;
+    background-color: #939393;
+    height: 30px;
+    width: 198px;
+    font-size: 15px;
+    color: #eeeeee;
+    z-index: 9999;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -35px;
+    opacity: 0.7;
+}
+#spans {
+    border: 1px solid #939393;
+    background-color: #939393;
+    height: 80px;
+    width: 198px;
+    font-size: 15px;
+    color: #eeeeee;
+    z-index: 9999;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -87px;
+    opacity: 0.7;
+}
+#spans div {
+    border-top: 1px solid #04b5cc;
+    border-bottom: 1px solid #04b5cc;
+    color: #04b5cc;
+    margin-top: 20px;
+    position: absolute;
+    left: 50px;
+    width: 100px;
+}
+.word {
+    width: 200px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: left;
+    color: #868686;
+    text-indent: 2em;
+    margin: 0;
+}
+#third {
+    width: 100%;
+    height: 440px;
+    background-image: url('E:/enterprise/homepage7.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+#third img {
+    width: 100%;
+}
+#third div {
+    float: left;
+    color: #fffefe;
+    font-size: 30px;
+    margin-left: 235px;
+    margin-top: 280px;
+}
+#fourth {
+    height: 500px;
+    text-align: center;
+    margin-top: 80px;
+    min-width: 1100px;
+    overflow: hidden;
+}
+#newh {
+    height: 200px;
+}
+#newh hr {
+    width: 40px;
+    position: absolute;
+    left: 655px;
+    background-color: #ff0000;
+    height: 2px;
+}
+#box {
+    text-align: left;
+    margin-left: 250px;
+    overflow: hidden;
+}
+#box hr {
+    position: absolute;
+    width: 450px;
+}
+#newd {
+    font-size: 25px;
+}
+#comn {
+    font-size: 20px;
+    padding-right: 50px;
+}
+#commn {
+    font-size: 20px;
+    padding-right: 155px;
+}
+#more {
+    color: #7dc1f4;
+}
+#imgc {
+    height: 180px;
+    width: 452px;
+}
+#imgc img {
+    float: left;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+#eldiv {
+    text-align: left;
+    height: 120px;
+    font-size: 10px;
+    padding-top: 50px;
+    letter-spacing: 1px;
+}
+#eldiv div {
+    border-bottom: 1px dotted #adadad;
+}
+.num {
+    color: #ff0000;
+}
+.date {
+    float: right;
+}
+#other {
+    margin-top: -206px;
+    margin-left: 600px;
+}
+#other hr {
+    width: 280px;
+}
+#comq {
+    font-size: 20px;
+    padding-right: 120px;
+}
+#morea {
+    color: #7dc1f4;
+}
+#words {
+    width: 260px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.sin {
+    color: #ffffff;
+    border: 1px solid #a6a6a6;
+    background-color: #a6a6a6;
+    border-radius: 20%;
+}
+.sing {
+    color: #ffffff;
+    border: 1px solid #16a8f9;
+    background-color: #13a8f9;
+    border-radius: 20%;
+}
+#fifth {
+    height: 400px;
+    margin-top: 200px;
+    background-image: url('E:/enterprise/homepage9.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #000000;
+    background-color: #000000;
+    opacity: 0.7;
+}
+#thr {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 15px;
+}
+#thr div {
+    float: left;
+    width: 250px;
+    height:150px;
+    margin-right: 60px;
+}
+.lixd {
+    float: left;
+    text-align: left;
+    width: 240px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#sixth {
+    border: 1px solid #000000;
+    background-color: #000000;
+    height: 30px;
+}
+#sixth span {
+    color: #eeeeee;
+    vertical-align: middle;
+}
