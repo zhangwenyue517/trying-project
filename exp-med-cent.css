@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#main {
+    height: 3600px;
+    width: 100%;
+    min-width: 1100px;
+    text-align: center;
+    overflow: hidden;
+}
+#first {
+    height: 420px;
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.top-nav {
+    float: left;
+    margin-left: 260px;
+    font-family: "黑体";
+    width: 90px;
+}
+.top-nav span {
+    display: block;
+}
+.cli {
+    padding-top: 20px;
+    font-size: 20px;
+}
+#word {
+    font-size: 25px;
+}
+#first img {
+    width: 100%;
+    padding-top: 20px;
+}
+#span {
+    border: 1px solid #8d8d8d;
+    background-color: #8d8d8d;
+    opacity: 0.7;
+    width: 100%;
+    margin-top: -45px;
+}
+#span span {
+    font-size: 25px;
+    padding: 5px;
+    width: 100%;
+    color: #ffffff;
+}
+#second {
+    height: 500px;
+    text-align: center;
+    margin-top: 80px;
+    min-width: 1100px;
+    overflow: hidden;
+    margin-bottom: 1000px;
+}
+#newh {
+    margin-bottom: 50px;
+}
+#newh hr {
+    width: 40px;
+    position: absolute;
+    left: 652px;
+    background-color: #272727;
+    height: 2px;
+    margin-top: -2px;
+}
+#newd {
+    font-size: 25px;
+    height: 36px;
+    border-bottom: 1px solid #adadad;
+    width: 200px;
+    margin: 0 auto;
+}
+#same {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.smcir {
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    margin: 0 auto;
+}
+.line {
+    border: 1px solid #ff0000;
+    height: 118px;
+    float: left;
+    margin-left: 499px;
+}
+.cir1 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff0000;
+    border-radius: 0 50px 0 0;
+    border-left: none;
+    border-bottom: none;
+    margin-top: 118px;
+    margin-left: 500px; 
+}
+.line1 {
+    border: 1px solid #ff0000;
+    width: 440px;
+    margin-left: 550px;
+}
+.smcir1 {
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    float: right;
+    margin-top: -5px;
+}
+.cir {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ddd65e;
+    background-color: #ddd65e;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-left: 472px;
+    margin-top: -30px;
+}
+.smcir2 {
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    float: left;
+    margin-top: -30px;
+    margin-left: 448px;
+}
+.cir2 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff0000;
+    border-radius: 0 0 0 50px;
+    border-right: none;
+    border-top: none;
+    margin-left: 450px;
+    margin-top: -25px;
+}
+.line2 {
+    border: 1px solid #f2ad69;
+    height: 300px;
+    margin-left: 500px;
+    float: left;
+}
+.cir3 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f2ad69;
+    border-radius: 50px 0 0 0;
+    border-right: none;
+    border-bottom: none;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 180px;
+}
