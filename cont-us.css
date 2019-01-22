@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#main {
+    width: 100%;
+    min-width: 1100px;
+    text-align: center;
+    overflow: hidden;
+}
+#first {
+    height: 420px;
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.top-nav {
+    float: left;
+    margin-left: 300px;
+    font-family: "黑体";
+    width: 90px;
+}
+.top-nav span {
+    display: block;
+}
+.cli {
+    padding-top: 20px;
+    font-size: 20px;
+}
+#word {
+    font-size: 25px;
+}
+#fir-img {
+    width: 100%;
+    padding-top: 20px;
+}
+#sbox {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+}
+#word1 {
+    font-size: 40px;
+    color: #ffba00;
+    font-weight: bold;
+}
+#word2 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+#word2 span {
+    color: #00fcff;
+    font-size: 30px;
+}
+#word3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 570px;
+    position: absolute;
+    z-index: 1;
+}
+#trap {
+    width:280px;
+    height:26px;
+    margin-left: 550px;
+	-webkit-transform:skew(40deg);
+	-moz-transform:skew(40deg);
+	-o-transform:skew(40deg);
+	-ms-transform:skew(40deg);
+	transform:skew(40deg);
+	background:#ffba00;
+}
+#second {
+    text-align: center;
+    padding-top: 100px;
+    height: 550px;
+    margin-bottom: 50px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+.pic {
+    font-size: 30px;
+    margin-bottom:150px;
+}
+.pic>span {
+    letter-spacing: 8px;
+}
+#second img {
+    border-right: 1px dashed #181616;
+    padding-right: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+#thr {
+    margin-left: 260px;
+}
+#con {
+    margin-left: 300px;
+}
+#con div {
+    float: left;
+}
+.ss {
+    width: 100%;
+}
