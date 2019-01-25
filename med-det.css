@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#main {
+    width: 100%;
+    min-width: 1100px;
+    text-align: center;
+    overflow: hidden;
+}
+#first {
+    height: 420px;
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.top-nav {
+    float: left;
+    margin-left: 300px;
+    font-family: "黑体";
+    width: 90px;
+}
+.top-nav span {
+    display: block;
+}
+.cli {
+    padding-top: 20px;
+    font-size: 20px;
+}
+#word {
+    font-size: 25px;
+}
+#first img {
+    width: 100%;
+    padding-top: 20px;
+}
+#span {
+    border: 1px solid #383839;
+    background-color: #383839;
+    opacity: 0.7;
+    width: 100%;
+    height: 35px;
+    margin-top: -45px;
+}
+#span span {
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 100%;
+    color: #ffffff;
+}
+#second {
+    margin-top: 100px;
+}
+.pic {
+    font-size: 25px;
+    margin-bottom:100px;
+}
+#f-div {
+    width: 2px;
+    height: 100px;
+    background-color: #beb2b2;
+    margin: 30px auto 0 auto;
+}
+#s-div {
+    margin:0 auto;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #ff0c0c;
+    border-radius: 50%;
+}
+#t-div {
+    width: 800px;
+    height: 2px;
+    margin:20px auto 30px auto;
+    background-color: #beb2b2;
+}
+#tit {
+    margin-bottom: 20px;
+}
+#tit div {
+    margin-bottom: 20px;
+}
+#init {
+    color: #cdcdcd;
+    letter-spacing: 0;
+}
+#t-pra {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.t-pra-div {
+    text-indent: 2em;
+    text-align: left;
+    font-size: 15px;
+    color: #4b4b4b;
+    line-height: 25px;
+}
+.imgs {
+    margin-right: 200px;
+    width:790px;
+}
+.imgs img {
+    width: 100%;
+    margin: 20px auto;
+}
+#le-div {
+    float: left;
+    margin-left: 60px;
+}
+#ri-div {
+    float: right;
+    margin-right: 60px;
+}
+#t-pra #le-div, #ri-div {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #b0aeae;
+}
+#t-pra span {
+    color: #838181;
+}
+#fifth {
+    height: 400px;
+    margin-top: 50px;
+    background-image: url('E:/enterprise/project-try/images/homepage9.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #000000;
+    background-color: #000000;
+    opacity: 0.7;
+}
+#fiimg {
+    margin-top: 100px;
+    margin-right: 220px;
+}
+#fifth img {
+    height: 65px; 
+    width: 85px;
+    margin-left: 250px;
+}
+#thr {
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 15px;
+    left: 200px;
+}
+#thr div {
+    float: left;
+}
+.lix {
+    margin-right: 45px;
+}
+.lixd {
+    width: 240px;
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+}
+#sixth {
+    border: 1px solid #000000;
+    background-color: #000000;
+    height: 30px;
+}
+#sixth span {
+    color: #eeeeee;
+    font-size: 20px;
+    vertical-align: super;
+}
