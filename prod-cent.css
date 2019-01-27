@@ -12,7 +12,6 @@
 #first {
     height: 420px;
     text-align: center;
-    margin-top: 10px;
     overflow: hidden;
 }
 .top-nav {
@@ -23,17 +22,26 @@
 }
 .top-nav span {
     display: block;
+    margin: 10px auto;
 }
 .cli {
-    padding-top: 20px;
+    margin: 25px auto;
     font-size: 20px;
+}
+.cli a {
+    text-decoration: none;
+    color: #000000;
+} 
+.cli span {
+    padding: 10px;
+    padding-left: 10px;
 }
 #word {
     font-size: 25px;
+    margin: 0;
 }
 #first img {
     width: 100%;
-    padding-top: 20px;
 }
 #span {
     border: 1px solid #8d8d8d;

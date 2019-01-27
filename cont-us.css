@@ -12,7 +12,6 @@
 #first {
     height: 420px;
     text-align: center;
-    margin-top: 10px;
     overflow: hidden;
 }
 .top-nav {
@@ -23,17 +22,26 @@
 }
 .top-nav span {
     display: block;
+    margin: 10px auto;
 }
 .cli {
-    padding-top: 20px;
+    margin: 25px auto;
     font-size: 20px;
+}
+.cli a {
+    color: #000000;
+    text-decoration: none;
+}
+.cli span {
+    padding: 10px;
+    padding-left: 10px;
 }
 #word {
     font-size: 25px;
+    margin: 0;
 }
 #fir-img {
     width: 100%;
-    padding-top: 20px;
 }
 #sbox {
     width: 100%;
@@ -78,8 +86,6 @@
     padding-top: 100px;
     height: 550px;
     margin-bottom: 50px;
-    border: 1px solid #f2f2f2;
-    background-color: #f2f2f2;
 }
 .pic {
     font-size: 30px;
@@ -88,23 +94,33 @@
 .pic>span {
     letter-spacing: 8px;
 }
-#second img {
-    border-right: 1px dashed #181616;
-    padding-right: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+#thr-img {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
 }
-#thr {
-    margin-left: 260px;
+.litt {
+    margin-left: 65px;
 }
-#con {
-    margin-left: 300px;
-}
-#con div {
+.img-span {
+    width: 299px;
     float: left;
+    border-right: 1px dashed #000;
+    height: 250px;
+}
+.img-span div {
+    width: 200px;
+    text-align: left;
+    margin-left: 50px;
+    position: absolute;
+}
+#thr-img img {
+    width: 150px;
+    height: 90px;
+    margin-bottom: 30px;
 }
 .ss {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 #fifth {
     margin-top: 500px;
@@ -121,6 +137,13 @@
     display: block;
     text-align: left;
     margin-bottom: 50px;
+}
+#input1 {
+    margin-right: 420px;
+}
+#input2 {
+    margin-left: -8px;
+    margin-right: 5px;
 }
 form img {
     margin-bottom: -10px;

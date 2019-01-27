@@ -9,10 +9,12 @@
     text-align: center;
     overflow: hidden;
 }
+#main a {
+    text-decoration: none;
+}
 #first {
     height: 420px;
     text-align: center;
-    margin-top: 10px;
     overflow: hidden;
 }
 .top-nav {
@@ -23,17 +25,26 @@
 }
 .top-nav span {
     display: block;
+    margin: 10px auto;
 }
 .cli {
-    padding-top: 20px;
+    margin: 25px auto;
     font-size: 20px;
+}
+.cli a {
+    color: #000000;
+    text-decoration: none;
+}
+.cli span {
+    padding: 10px;
+    padding-left: 10px;
 }
 #word {
     font-size: 25px;
+    margin: 0;
 }
 #first img {
     width: 100%;
-    padding-top: 20px;
 }
 #second {
     height: 900px;
@@ -82,6 +93,16 @@
     height: 115px;
     width: 200px;
     position: relative;
+}
+.six-img:hover {
+    background-color: #6fff61;
+}
+.si-img {
+    height: 115px; 
+    width: 200px;
+}
+.si-img:hover {
+    background-color: #6fff61;
 }
 .span {
     border: 1px solid #939393;
@@ -146,6 +167,10 @@
     float: left;
     margin-left: 310px;
     margin-top: 150px;
+}
+#src img:hover {
+    width: 120px;
+    height: 80px;
 }
 #wor {
     float: left;
@@ -263,7 +288,6 @@
 }
 #fifth {
     height: 400px;
-    margin-top: 150px;
     background-image: url('E:/enterprise/project-try/images/homepage9.gif');
     background-repeat: no-repeat;
     background-size: cover;
