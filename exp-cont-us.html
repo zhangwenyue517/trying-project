@@ -4,7 +4,7 @@
         <script type="text/javascript"></script>
         <title>产品</title>
         <link rel="stylesheet" type="text/css" href="cont-us.css">
-        <script type="text/javascript" src="con-us.js"></script>
+        <script Language="JavaScript" src="cont-us.js"></script>
         <meta charset="utf-8"/>
     </head>
     <body>
@@ -54,7 +54,7 @@
                 </div>
                 <img>
                 <div class="ss">
-                    <iframe src="map.html"  frameborder="0" width="1000px"></iframe>
+                    <iframe src="map.html"  frameborder="0"  id="iframe"></iframe>
                 </div>
             </div>
             <div id="fifth">
@@ -63,21 +63,20 @@
                     <form>
                         <div id="lab">
                             <label for="username"><img src="E:/enterprise/project-try/images/con-us1.jpg">&nbsp;</label>
-                            <input type="text"  name="username" placeholder="姓名：" id="input1"/>
+                            <input type="text"  name="username" placeholder="姓名：" value="" id="input1"/>
                             <label for="telephone"><img src="E:/enterprise/project-try/images/con-us2.jpg" id="input2">&nbsp;</label>
-                            <input type="text"  name="telephone" placeholder="电话：" />
+                            <input type="text"  name="telephone" placeholder="电话：" value=""/>
                         </div>
                         <div style="float: left">
                             <label for="QQ"><img src="E:/enterprise/project-try/images/con-us3.jpg">&nbsp;</label>
-                            <input type="text"  name="QQ" placeholder="QQ："  style="margin-right: 420px;"/>
+                            <input type="text"  name="QQ" placeholder="QQ："  value="" style="margin-right: 420px;"/>
                             <label for="Email"><img src="E:/enterprise/project-try/images/con-us4.jpg" style="margin-left: -10px;">&nbsp;</label>
-                            <input type="text"  name="Email" placeholder="Email：" />
+                            <input type="text"  name="Email" placeholder="Email："  value=""/>
                         </div>
                         <textarea id="text">请留下你的意见</textarea><br>
                         <label for="code" id="code">验证码：</label>
-                        <input type="text" name="code">
-                        <input type="submit" name="submitbtn" id="submit">
-                        <span>确认</span>
+                        <input type="text" name="code" value="">
+                        <input type="submit" name="submitbtn" id="submit"  onclick="sure()"value="确认提交">
                     </form>
                 </div>
             </div>
